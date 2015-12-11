@@ -12,7 +12,9 @@
     <keywords>cordova,umeng</keywords>
     <repo>https://github.com/crossmo/cordova-umeng-update.git</repo>
     <issue>https://github.com/crossmo/cordova-umeng-update/issues</issue>
-    
+
+    <preference name="app_key" />
+
     <engines>
         <engine name="cordova" version=">=3.5.0" />
     </engines>
@@ -61,6 +63,8 @@
         
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <meta-data android:name="UMENG_APPKEY" android:value="$app_key" />
+            <meta-data android:name="UMENG_CHANNEL" android:value="lenovo" />
             <service
                 android:name="com.umeng.update.net.DownloadingService"
                 android:process=":DownloadingService" >
