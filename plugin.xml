@@ -51,6 +51,7 @@
                 <param name="android-package" value="org.apache.cordova.umeng.Update"/>
                 <param name="onload" value="true" />
             </feature>
+            <preference name="app_key" value="$app_key"/>
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/*">
