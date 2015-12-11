@@ -8,7 +8,7 @@ Cordova友盟动更新插件
 
 # 安装
 
-1. 运行 ```cordova plugin add https://github.com/725137/cordova-umeng-update.git --variable app_key=你的appkey``` 
+1. 运行 ```cordova plugin add https://github.com/725137/cordova-umeng-update.git --variable APP_KEY=你的appkey``` 
 
 2. cordova各种衍生命令行都应该支持，例如phonegap或者ionic。
 
