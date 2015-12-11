@@ -78,6 +78,7 @@
 
         <source-file src="src/android/Update.java" target-dir="src/org/apache/cordova/umeng" />
         <source-file src="src/android/libs/umeng-update-v2.6.0.1.jar" target-dir="libs" />
+        <source-file src="src/android/libs/umeng-analytics-v5.6.3.jar" target-dir="libs" />
         
         <source-file src="src/android/res/drawable/tb_munion_icon.xml" target-dir="res/drawable" />
         <source-file src="src/android/res/drawable/tb_munion_item_selector.xml" target-dir="res/drawable" />
